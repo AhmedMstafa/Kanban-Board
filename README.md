@@ -4,10 +4,10 @@
 
 [Go live](https://kanban-board-ahmed.netlify.app/ "Kanban Board")
 
-![](images/pc.png "")
+![](img/pc.png)
 
 #
 
-![](images/mobile.jpg "")
+![](img/mobile.jpg)
 
 #
