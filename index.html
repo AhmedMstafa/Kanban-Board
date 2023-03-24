@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Ahmed Mostafa" />
+    <meta name="keywords" content="'Kanban Borad', Kanban, Borad" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- cssFile -->
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- jsFile -->
+    <script src="Js/app.js" defer></script>
+
+    <!-- ionIcons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+    <title>Kanban Borad</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column" id="0">
+        <div class="column-title">Not Started</div>
+        <div class="list-items"></div>
+        <button class="add-item" type="button">+ Add</button>
+      </div>
+      <div class="column" id="1">
+        <div class="column-title">In Progress</div>
+        <div class="list-items"></div>
+        <button class="add-item" type="button">+ Add</button>
+      </div>
+      <div class="column" id="2">
+        <div class="column-title">Completed</div>
+        <div class="list-items"></div>
+        <button class="add-item" type="button">+ Add</button>
+      </div>
+    </div>
+  </body>
+</html>
