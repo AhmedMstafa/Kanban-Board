@@ -168,7 +168,7 @@
     margin-right: 0px;
   }
   .item-input {
-    max-width: fit-content;
+    min-width: calc(100% - 5rem);
     margin-right: 10px;
   }
   .item.input .item-input {
